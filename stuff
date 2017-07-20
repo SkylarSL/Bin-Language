@@ -1,0 +1,45 @@
+
+#!/bin/bash
+
+mv TopDir stuff
+mv source dest
+mv TopDir stuff
+mkdir TopDir
+
+cd TopDir
+
+echo "created TopDir"
+
+mkdir BottomDir
+
+mv /path/to/BottomDir /path/to/TopDir
+
+cd BottomDir
+
+echo "created TopDir/BottomDir"
+
+
+	for i in {0..20}
+	
+	do
+	
+	if [ $i -eq 20 ]
+
+	then
+
+	echo no more files
+
+	else
+
+	echo File $i: 
+	echo my name is file $(($i+1))
+	echo the next file is file $(($i+2))
+	echo _____________________________________
+
+	fi
+
+done
+
+x = `grep '0\|2\|3' $f
+mv /path/to/BottomDir /path/to/TopDir
+cd TopDir
